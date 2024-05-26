@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "bull": "^4.12.9",
+    "express": "^4.19.2",
+    "moment-timezone": "^0.5.45",
+    "node-cron": "^3.0.3"
+  }
+}
