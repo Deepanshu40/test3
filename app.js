@@ -21,7 +21,6 @@ for (let i=0; i<=50; i++) {
 myQueue.process(1, async(job) => {
 
 await new Promise(resolve => setTimeout(resolve, 5000));
-// console.log(job);
 console.log(`Process job has been completed successfully: ${job.data.name}`);
 
 })
