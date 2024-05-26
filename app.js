@@ -2,7 +2,7 @@ const express = require('express');
 const Queue = require('bull')
 const app = express();
 
-const port = 3000;
+const port = 4167;
 const myQueue = new Queue('myQueue', 'redis://127.0.0.1:6379');
 
 
