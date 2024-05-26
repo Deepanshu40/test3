@@ -1,4 +1,6 @@
-{
+{"scripts": {
+  "start": "node app.js"
+},
   "dependencies": {
     "bull": "^4.12.9",
     "express": "^4.19.2",
